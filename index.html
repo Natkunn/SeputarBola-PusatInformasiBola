@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Seputar Bola</title>
+  <meta name="description" content="Seputar Bola PWA" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="apple-touch-icon" href="/maskable_icon-192x192.png">
+  <meta name="theme-color" content="#00897B" />
+</head>
+
+<body>
+  <!-- Navigasi -->
+  <nav class="green accent-2" role="navigation">
+    <div class="nav-wrapper container">
+      <a href="./index.html" class="brand-logo" id="logo-container"><img src="logo_text.png" alt="Seputar Bola"></a>
+      <a href="#" class="sidenav-trigger" data-target="nav-mobile">☰</a>
+
+      <ul class="topnav right hide-on-med-and-down"></ul>
+      <ul class="sidenav" id="nav-mobile"></ul>
+    </div>
+  </nav>
+  <!-- Akhir Navigasi -->
+  <div id="body-content"></div>
+  <footer class="green accent-2">
+    <p>&copy2020 Developed by Natura Adnyana<br>Made with passion - Gianyar, Bali</p>
+  </footer>
+  <script src="js/materialize.min.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/idb.js"></script>
+  <script src="js/db.js"></script>
+  <script src="js/notification.js"></script>
+  <script src="register-sw.js"></script>
+
+  <!-- // REQUEST API UNTUK PERTAMA KALI
+  // document.addEventListener("DOMContentLoaded", function () {
+  // getTable();
+  // }); -->
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+@font-face {
+	font-family: 'Lalezar';
+	src: url('../fonts/Lalezar-Regular.ttf');
+	src: url('../fonts/Lalezar-Regular.ttf') format('ttf'),
+	     url('../fonts/Lalezar-Regular.ttf') format('truetype');
+}
+*{
+    scroll-behavior: smooth;
+}
+#articles{
+    margin-top: 30px;
+}
+nav img{
+    padding: 5px;
+    width: 150px;
+}
+.nav-list{
+    color: black;
+    font-family: 'Lalezar', 'Arial Black';
+    padding: 0 20px 0 20px;
+}
+.greeting{
+    padding: 20px 50px;
+    border: solid rgba(0, 0, 0, 0.322);
+    height: 600px;
+    background-image: url('../img/bg1.jpg');
+    background-size: cover;
+}
+.greeting h1, h4{
+    font-family: 'Lalezar', 'Arial Black';
+    text-shadow: 0 0 3px white;
+}
+.greeting h1 span{
+    color: green;
+}
+.tabel-tim{
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+    position: relative;
+    top: -200px;
+    background-color: white;
+}
+.tabel-tim h5{
+    padding: 20px;
+    font-family: 'Lalezar', 'Arial Black';
+
+}
+.sidenav-trigger{
+    color: black;
+}
+.standing-img{
+    width: 5%;
+    margin-bottom: -5px;
+}
+.team-card{
+    height: 300px;
+}
+.team-card img{
+    padding: 20px;
+}
+.detail table{
+    margin-top: 20px;
+}
+.team-card2{
+    padding: 20px 10px 0 10px;
+}
+.card-name{
+    font-family: 'Lalezar', 'Arial Black';
+}
+.detail-img{
+    padding: 50px 100px 0 100px;
+}
+.about-title{
+    margin-top: 50px;
+    font-family: 'Lalezar', 'Arial Black';
+}
+footer{
+    margin-top: 500px;
+    width: 100%;
+    padding: 20px;
+}
+
+@media screen and (max-width: 1000px){
+    .team-card{
+        height: 300px;
+    }
+}
+@media screen and (max-width: 600px){
+    nav img{
+        width: 130px;
+    }
+    .standing-img{
+        display: none;
+    }
+}

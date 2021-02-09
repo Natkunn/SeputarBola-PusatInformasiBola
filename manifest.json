@@ -1,0 +1,35 @@
+{
+    "name": "Seputar Bola",
+    "short_name": "Seputar Bola",
+    "description": "Pusat Informasi Bola Terupdate",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#00e676",
+    "theme_color": "#00e676",
+    "icons": [
+        {
+            "src": "icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "maskable_icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "maskable_icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
+    "gcm_sender_id": "81448864963"
+}
